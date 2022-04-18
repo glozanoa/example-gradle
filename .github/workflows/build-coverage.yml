@@ -1,0 +1,17 @@
+name: Build-Test-Coverage-Actions
+on: [push]
+jobs:
+  buid-test-coverage:
+  runs-on: ubuntu-20.04
+  
+
+  steps:
+    - users: actions/checkout@3
+    - name: Build
+      run: ./gradlew build
+
+    - name: Run-Tests
+      run: ./gradlew test
+
+    - name: Coverage
+      run: ./gradlew jacocoTestReport
