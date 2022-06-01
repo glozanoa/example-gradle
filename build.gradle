@@ -1,5 +1,5 @@
 apply plugin: 'java'
-//apply plugin: 'jacoco'
+apply plugin: 'jacoco'
 
 
 repositories {
@@ -10,14 +10,13 @@ dependencies {
    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
-/*
+
 jacocoTestReport {
    reports {
         xml.required = true
    }
     dependsOn test
 }
-*/
 
 //check.dependsOn jacocoTestReport
 
@@ -26,14 +25,6 @@ test {
     useJUnitPlatform()
     //finalizedBy jacocoTestReport // report is always generated after tests run
 }
-
-/*
-jacocoTestReport {
-    dependsOn test // tests are required to run before generating the report
-}
-*/
-
-
 
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
