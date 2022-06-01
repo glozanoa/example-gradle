@@ -1,9 +1,8 @@
 # [Codecov](https://codecov.io) Gradle Example
 
-<div>
 [![codecov](https://codecov.io/gh/glozanoa/example-gradle/branch/master/graph/badge.svg?token=MWQ7JLRCMK)](https://codecov.io/gh/glozanoa/example-gradle)
 [![Coverage-Workflow](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml/badge.svg)](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml)
-</div>
+
 
 
 
