@@ -4,6 +4,7 @@
 [![Coverage-Workflow](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml/badge.svg)](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml)
 
 
+Coverage report: https://github.com/glozanoa/example-gradle/blob/master/build/reports/jacoco/test/html/index.html
 
 
 ## Guide
