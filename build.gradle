@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply plugin: 'jacoco'
+//apply plugin: 'jacoco'
 
 
 repositories {
@@ -10,25 +10,28 @@ dependencies {
    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
+/*
 jacocoTestReport {
-    reports {
+   reports {
         xml.required = true
    }
     dependsOn test
 }
+*/
 
 //check.dependsOn jacocoTestReport
 
 
 test {
-    userJUnitPlatform()
+    useJUnitPlatform()
     //finalizedBy jacocoTestReport // report is always generated after tests run
 }
 
-
+/*
 jacocoTestReport {
     dependsOn test // tests are required to run before generating the report
 }
+*/
 
 
 

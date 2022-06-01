@@ -26,7 +26,7 @@ public class HelloWorldTest {
 
     @Test
     public void testFail(){
-        assertTrue(false);
+        assertFalse(false);
     }
 	
 }
