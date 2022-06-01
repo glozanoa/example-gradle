@@ -3,10 +3,6 @@
 [![codecov](https://codecov.io/gh/glozanoa/example-gradle/branch/master/graph/badge.svg?token=MWQ7JLRCMK)](https://codecov.io/gh/glozanoa/example-gradle)
 [![Coverage-Workflow](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml/badge.svg)](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml)
 
-
-Coverage report: https://github.com/glozanoa/example-gradle/blob/master/build/reports/jacoco/test/html/index.html
-
-
 ## Guide
 ### Travis Setup
 
