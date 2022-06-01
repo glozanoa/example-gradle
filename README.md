@@ -1,5 +1,10 @@
 # [Codecov](https://codecov.io) Gradle Example
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-gradle.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-gradle?ref=badge_shield)
+
+<div>
+[![codecov](https://codecov.io/gh/glozanoa/example-gradle/branch/master/graph/badge.svg?token=MWQ7JLRCMK)](https://codecov.io/gh/glozanoa/example-gradle)
+[![Coverage-Workflow](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml/badge.svg)](https://github.com/glozanoa/example-gradle/actions/workflows/coverage.yml)
+</div>
+
 
 
 ## Guide
