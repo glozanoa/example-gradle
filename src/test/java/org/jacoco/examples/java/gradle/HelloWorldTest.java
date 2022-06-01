@@ -1,16 +1,15 @@
 package org.jacoco.examples.java.gradle;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class HelloWorldTest {
 
 	private HelloWorld subject;
 
-	@Before
+	@BeforeEach
 	public void setup() {
 		subject = new HelloWorld();
 	}
