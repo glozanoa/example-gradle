@@ -15,7 +15,7 @@ public class HelloWorldTest {
 		subject = new HelloWorld();
 	}
 
-    @Disabled("Disable to reduce coverage - TESTING")	
+    //@Disabled("Disable to reduce coverage - TESTING")	
 	@Test
 	public void testGetMessage() {
 		assertEquals("Hello World!", subject.getMessage(false));
